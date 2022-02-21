@@ -1,0 +1,11 @@
+wal_size: 2
+memtable_size: 3
+lsm_levels: 4
+cache_size: 2
+threshold: 10
+time_rate: 10
+lvl_tables: {
+              1: 4,
+              2: 2,
+              3: 1
+}
